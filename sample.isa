@@ -1,0 +1,42 @@
+addi &r2 20
+la &r2 -5
+mw &r2
+addi &r0 12
+addi &r1 15
+addi &r2 100
+sw &r2 &r1 15
+lw &r4 &r0 3 
+add &r0 &r1
+sub &r2 &r1
+nor &r3 &r1
+addi &r15 2
+beq &r15 2
+j 40
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+sub &r15 &r15
+addi &r15 -2
+beq &r14 -42
